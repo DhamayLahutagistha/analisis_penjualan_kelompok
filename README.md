@@ -6,12 +6,14 @@ No Absen: 14
 
 📋 Deskripsi Proyek
 Proyek ini bertujuan untuk menganalisis performa penjualan e-commerce pakaian wanita guna mengidentifikasi efisiensi produk, segmentasi pelanggan, dan pengaruh variabel harga terhadap total pendapatan menggunakan teknik analisis data tingkat lanjut.
+
 🚀 Metodologi Analisis
 Analisis ini mencakup empat tahapan krusial sesuai standar modul praktikum:
 - Data Wrangling: Pembersihan data dari nilai missing, perbaikan tipe data tanggal, dan penanganan anomali harga.
 - Identifikasi Underperformer: Menggunakan analisis sebaran (Scatter Plot) untuk menemukan produk "beban" stok.
 - Analisis RFM (Recency, Frequency, Monetary): Segmentasi pelanggan berbasis perilaku belanja dengan sistem scoring 1-5.
 - Analisis Prediktif: Implementasi Regresi Linear untuk memprediksi tren pendapatan berdasarkan variabel harga.
+
 📊 Hasil Analisis & Jawaban Modul
 1. Produk Underperformer (Halaman 4)
    Analisis: Berdasarkan grafik Scatter Plot antara Harga Satuan dan Kuantitas, kami menemukan titik-titik produk di kuadran kanan bawah.
@@ -26,12 +28,14 @@ Analisis ini mencakup empat tahapan krusial sesuai standar modul praktikum:
    - Model Equation: $y = \beta_0 + \beta_1x$
    - R2 Score: (Masukkan angka R2 dari terminal kamu, misal: 0.82)
    - Interpretasi: Nilai R2 menunjukkan seberapa kuat harga dapat menjelaskan variasi total penjualan. Koefisien positif menunjukkan bahwa strategi harga saat ini masih selaras dengan peningkatan total nilai transaksi.
+     
 🛠️ Teknologi & Library
 - Bahasa: Python 3.13
 - Library Utama:
   - Pandas: Manipulasi dan pembersihan data.
   - Matplotlib & Seaborn: Visualisasi data (Scatter, Bar, Line).
   - Scikit-Learn: Pemodelan Regresi Linear.
+  
 📁 Struktur Repositori
 - women_clothing_ecommerce_sales.csv: Dataset utama transaksi.
 - analisis_individu.py: Skrip untuk eksplorasi tren bulanan dan heatmap.
